@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Form_Solicitud_Local">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:title="@string/app_name"
+        app:titleTextColor="#fff"
+        android:id="@+id/toolbarForm">
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/form_s_promo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Promocion"
+        android:textColorHint="#000"
+        android:layout_margin="10dp"
+        android:inputType="text"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/form_s_rest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del local"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/form_s_horario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horario valido"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/form_s_dia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dia de promocion"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/form_s_direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Direccion del local"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/form_s_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefono del local"
+            android:textColorHint="#000"
+            android:inputType="number"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/imgForm"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_photo_black_24dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonGallery"
+                android:layout_marginStart="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cargar imagen"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_rounded_register"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:drawableLeft="@drawable/ic_photo_black_24dp"
+                />
+         <Button
+                android:layout_marginStart="38dp"
+                android:id="@+id/buttonCamara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abrir camara"
+                android:layout_gravity="center"
+             android:gravity="center"
+                android:background="@drawable/button_rounded_register"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:drawableLeft="@drawable/ic_camera_black_24dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

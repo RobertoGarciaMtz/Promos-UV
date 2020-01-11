@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/backMapa"
+        android:title="Volver"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        />
+    <item
+        android:id="@+id/ubicarme"
+        android:title="Mi ubicacion"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_my_location_black_24dp"
+        />
+    <item
+        android:id="@+id/nextTo"
+        android:title="Continuar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_arrow_forward_black_24dp"
+        />
+</menu>

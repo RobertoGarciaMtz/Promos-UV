@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VistaCompleta_Promocion">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:title="Informacion"
+        app:titleTextColor="#ffffff"
+        />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:background="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Switch
+                android:id="@+id/Eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eliminar"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/imagencompleta"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="86dp" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:text="Promocion"
+                android:id="@+id/promocioncompleta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="NombreRestaurante"
+                android:id="@+id/Restaurantecompleta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:text="horario"
+                android:textStyle="bold"
+                android:id="@+id/horariocompleta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:text="dia"
+                android:id="@+id/diacompleta"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:text="telefono"
+                android:id="@+id/telefonocompleta"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="direccion"
+                android:id="@+id/direccioncompleta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/BtnAprobar"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:text="Aprobar"
+                android:background="@drawable/button_rounded_register"
+                android:textColor="#000"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

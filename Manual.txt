@@ -1,0 +1,16 @@
+Cuenta admin: RobertoGarcia@hotmail.com
+contraseña: hola123
+cuenta usuario normal: UsuarioNormal@hotmail.com
+contraseña: hola123
+se pueden crear mas usuarios normales, no administradores,
+la barra de filtro en usuario normal, un clic hace que aparezca, el 
+filtro es por dia, al escribir o seleccionar el dia, dar clic nuevamente
+en el boton con forma de lupa y se filtraran las cosas.
+Para que la propuesta del usuario sea visualizada el admin tendra que aceptarla
+en su perfil se ve un listado con las aceptadas y las propuestas de ofertas
+para la app,
+cuenta con eliminar, agregar y login, validaciones en datos llenos
+ademas de uso del storage de firebase y aplicando picaso para
+el dibujado.
+cualquier duda pregunten.
+pd: en la apk sigue sin funcionar el mapa
